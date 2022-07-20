@@ -15,8 +15,8 @@ header{
 }
 
 .side-padding{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .jc-sb{
@@ -43,6 +43,34 @@ header{
     margin-top: 100px;
 }
 
+.mt-80{
+    margin-top: 80px;
+}
+
+.mt-65{
+    margin-top: 65px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mts-45{
+    margin-top: -45px;
+}
+
+.mts-40{
+    margin-top: -40px;
+}
+
+.mts-20{
+    margin-top: -20px;
+}
+
 .mts-15{
     margin-top: -15px;
 }
@@ -53,14 +81,14 @@ header{
 }
 
 .header-text{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     color: #979391;
 }
 
 .header-text:hover{
-    color: black;
+    color: #6c8693;
 }
 
 .cf{
@@ -78,7 +106,7 @@ header{
     width: 52px;
     height: 52px;
     border: 1px solid transparent;
-    
+    background: radial-gradient(rgba(157, 184, 200, 0.7), #748E9C);
 }
 
 .bg-icon{
@@ -90,35 +118,126 @@ header{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #1c2529;
+}
+
+.text-minimain{
+    font-size: 16px;
+    font-weight: 500;
+    color: #aaaaaa;
+    font-family: 'Inter', sans-serif;
+}
+
+.one-but{
+    width: 170px;
+    height: 60px;
+    background-image: radial-gradient(rgba(157, 184, 200, 0.7), #748E9C);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.two-but{
+    width: 180px;
+    height: 60px;
+    border: 2px solid #dedede;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-main{
+    width: 440px;
+    height: 510px;
+}
+
+.text-main{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+}
+
+h2{
+    font-size: 36px;
     font-weight: 600;
     font-family: 'PT Serif', serif;
 }
 
-.text-h1{
-    font-size: 20px;
+.text-h2{
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
 
+.img-h2{
+    width: 85px;
+    height: 73px;
+    position: relative;
+    top: -25px;
+}
+
+.con-block{
+    width: 78%;
+    height: 70px;
+    border: 2px solid #dedede;
+}
+
+.loading{
+    width: 78%;
+    height: 70px;
+    background-image: linear-gradient( 45deg,#6c8693, #a7c2d3);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.img-fon{
+    width: 100%;
+    height: 840px;
+    background-image: url(../img/Rectangle\ 249.png);
+    background-size: cover;
+}
+
+.card-fon{
+    width: 340px;
+    height: 460px;
+}
+
+.img-two{
+    width: 340px;
+    height: 350px;
+}
+
+.cardfon-text{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'PT Serif', serif;
+    color: #1c2529;
+}
+
 .card{
-    width: 400px;
-    height: 545px;
+    width: 340px;
+    height: 460px;
 }
 
 .ava{
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 350px;
 }
 
-h2{
-    font-size: 20px;
+h3{
+    font-size: 18px;
     font-weight: 700;
     font-family: 'PT Serif', serif;
 }
 
 .price{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
@@ -130,7 +249,7 @@ h2{
 }
 
 .Binsky{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     font-family: 'PT Serif', serif;
     color: #637883;
@@ -142,18 +261,18 @@ h2{
 }
 
 .last{
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 650;
     font-family: 'Inter', sans-serif;
     color: #788d98;
 }
 
 button{
-    width: 316px;
-    height: 80px;
+    width: 270px;
+    height: 65px;
     border: 1px solid #dedede;
-    background-color: white;
-    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
 }
@@ -162,12 +281,84 @@ main{
     height: 1500px;
 }
 
+.card-block{
+    width: 30%;
+    height: 63vh;
+}
+
+.ava-block{
+    width: 90%;
+}
+
+.title-card{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #476676;
+}
+
+.text-card{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #476676;
+}
+
+.title-text{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    color: #476676;
+    margin-bottom: 25px;
+}
+
+.line-block{
+    width: 89%;
+    height: 80px;
+    padding: 0 8% 0 3%;
+}
+
+.line-text{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    color: #1e4257;
+}
+
+.account{
+    width: 60px;
+    height: 60px;
+}
+
+.fly{
+    width: 40px;
+    height: 25px;
+}
+
+.block-over{
+    overflow-x: scroll;
+    border: 1px solid transparent;
+
+}
+
+.box-block{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid transparent;
+    background: radial-gradient(#9cb7c7, #748e9c);
+    min-width: 200px;
+}
+
 .footer{
     height: 500px;
     background-color: #394348;
 }
 
-.left{
+.left-footer{
     width: 72%;
 }
 
@@ -179,7 +370,7 @@ main{
 }
 
 input{
-    width: 400px;
+    width: 450px;
     height: 45px;
     background-color: #394348;
     border: 1px solid #ffffff33;
@@ -188,18 +379,18 @@ input{
 }
 
 .end-button{
-    width: 100px;
-    height: 44px;
+    width: 120px;
+    height: 45px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     color: #6a5843;
     margin-left: 10px;
 }
 
-.right{
+.right-footer{
     width: 42%;
 }
 
@@ -225,6 +416,12 @@ input{
 .end-icon2{
     width: 30px;
     height: 30px;
+}
+
+.end-icon3{
+    width: 60px;
+    height: 60px;
+    margin-top: -13px;
 }
 
 .end-logo{
