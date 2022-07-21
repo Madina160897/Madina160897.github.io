@@ -51,6 +51,14 @@ header{
     margin-top: 65px;
 }
 
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-40{
+    margin-top: 41px;
+}
+
 .mt-30{
     margin-top: 30px;
 }
@@ -59,16 +67,20 @@ header{
     margin-top: 20px;
 }
 
+.mt-23{
+    margin-top: 23px;
+}
+
 .mts-45{
     margin-top: -45px;
 }
 
 .mts-40{
-    margin-top: -40px;
+    margin-top: -42px;
 }
 
 .mts-20{
-    margin-top: -20px;
+    margin-top: -21px;
 }
 
 .mts-15{
@@ -119,6 +131,89 @@ a{
 
 .small-icon{
     position: relative;
+}
+
+.fon{
+    background-image: url(../img/image\ 32.png);
+    background-size: cover;
+    height: 650px;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 500;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #4f6776;
+}
+
+.follow{
+    width: 230px;
+    height: 65px;
+    border: 1px solid transparent;
+    background-image: radial-gradient(#9cb7c7,  #748E9C);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.card-box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #476676;
+    font-size: 68px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    color: #365262;
+}
+
+.title-box{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    color: #365262;
+}
+
+.text-box{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #476676;
+}
+
+.cart{
+    width: 32%;
+    height: 280px;
+    border: 1px solid #b1d0d8;
+    padding: 3% 3% 0 3%;
+    box-sizing: border-box;
+}
+
+.icon{
+    width: 120px;
+    height: 65px;
+}
+
+.block-rewards{
+    height: 550px;
+    background: radial-gradient(#a7c2d3, #6c8693);
+}
+
+.box-rewards{
+    width: 40%;
+    height: 200px;
+    border: 1px solid #e1f9ff;
+    padding: 3% 3% 0 3%;
+    box-sizing: border-box;
+}
+
+.star{
+    width: 200px;
+    height: 270px;
+    position: relative;
+    top: -120px;
+    left: 15px;
 }
 
 h2{
