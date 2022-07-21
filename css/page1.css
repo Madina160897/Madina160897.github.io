@@ -143,13 +143,8 @@ h1{
     font-family: 'Inter', sans-serif;
 }
 
-.one{
-    width: 200px; 
-    height: 75px;
-}
-
 .one-but{
-    width: 170px;
+    width: 45%;
     height: 60px;
     background-image: radial-gradient(#9cb7c7,  #748E9C);
     font-size: 16px;
@@ -158,8 +153,13 @@ h1{
     font-family: 'Inter', sans-serif;
 }
 
+.one{
+    width: 200px; 
+    height: 75px;
+}
+
 .two-but{
-    width: 180px;
+    width: 45%;
     height: 60px;
     border: 2px solid #dedede;
     font-size: 16px;
@@ -304,6 +304,20 @@ main{
     height: 63vh;
 }
 
+.br-1{
+    border-right: 1px solid #e6e6e6;
+}
+
+.fs-c{
+    font-size: 20px; 
+    color:#1e4257;
+}
+
+.fw-c{
+    font-weight: 600; 
+    color:#1e4257;
+}
+
 .ava-block{
     width: 90%;
 }
@@ -355,6 +369,18 @@ main{
     height: 25px;
 }
 
+.w-200{
+    width: 200px;
+}
+
+.w-174{
+    width: 174px;
+}
+
+.w-232{
+    width: 232px;
+}
+
 .block-over{
     overflow-x: scroll;
     border: 1px solid transparent;
@@ -364,7 +390,7 @@ main{
 .box-block{
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 300px;
     height: 100px;
     border: 1px solid transparent;
     background: radial-gradient(#9cb7c7, #748e9c);
@@ -469,19 +495,36 @@ input{
     color: #ffffff;
 }
 
+.w-ml{
+    width: 60%; margin-left: 7%;
+}
+
 @media (max-width: 768px) {
     header{
-        flex-flow: column-reverse;
-    }
-    .logo{
-        display: none;
-    }
-    .account-header{
         flex-flow: row;
+        height: 150px;
     }
 
     .menu-header{
-    
+        margin-top: 10px;
+    }
+
+    .block-img1{
+        width: 40px;
+        height: 40px;
+    }
+
+    .block-img2{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .account-header{
+        flex-flow: row;
     }
 
     .side-padding{
@@ -526,7 +569,7 @@ input{
     }
 
     .mt-30{
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .text-h2{
@@ -547,6 +590,7 @@ input{
         width: 120px;
         height: 45px;
         margin-left: 10px;
+        margin-top: 0;
     }
 
     .img-fon{
@@ -562,7 +606,7 @@ input{
 
     .card-fon{
         width: 250px;
-        height: 350px;
+        height: 335px;
     }
 
     .img-two{
@@ -584,6 +628,7 @@ input{
 
     .last{
         font-size: 9px;
+        margin-top: 5px;
     }
 
     button{
@@ -595,6 +640,13 @@ input{
     
     .container{
         margin-top: 10px;
+    }
+
+    .title-card{
+        font-size: 14px;
+    }
+    .text-card{
+        font-size: 11px;
     }
 
     .line{
@@ -611,5 +663,112 @@ input{
     .ava{
         width: 250px;
         height: 260px;
+    }
+
+    .Binsky{
+        font-size: 14px;
+    }
+
+    .br-1{
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .card-block{
+        margin-top: 15px;
+    }
+
+    .title-text{
+        font-size: 25px;
+    }
+
+    .line-block{
+        height: 50px;
+    }
+
+    .line-text{
+        font-size: 21px;
+    }
+
+    .fs-c{
+        font-size: 16px;
+    }
+
+    .account{
+        width: 40px;
+        height: 40px;
+    }
+
+    .fw-c{
+        margin-left: 10px;
+    }
+
+    .w-200{
+        width: 140px;
+    }
+
+    .w-174{
+        width: 120px;
+    }
+
+    .w-232{
+        width: 165px;
+    }
+
+    .left-footer{
+        width: 82%;
+    }
+
+    .end-text{
+        font-size: 19px;
+    }
+
+    input{
+        width: 220px;
+    }
+
+    .box{
+        width: 30px;
+        height: 30px;
+    }
+
+    .right-footer{
+        width: 60%;
+    }
+
+    .end-icon1{
+        width: 30px;
+        height: 20px;
+    }
+
+    .end-icon2{
+        width: 20px;
+        height: 20px;
+    }
+
+    .end-icon3{
+        width: 40px;
+        height: 40px;
+    }
+
+    .end-logo{
+        width: 70px;
+        height: 25px;
+    }
+
+    .text-date{
+        font-size: 15px;
+        width: 35%;
+    }
+
+    .text-end{
+        font-size: 13px;
+    }
+
+    .end{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 10%;
     }
 }
