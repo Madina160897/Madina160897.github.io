@@ -676,7 +676,8 @@ input{
 
     .card-block{
         margin-top: 15px;
-        height: 300px;
+        height: 370px;
+        width: 60%;
     }
 
     .title-text{
